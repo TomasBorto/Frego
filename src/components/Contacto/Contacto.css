@@ -1,0 +1,99 @@
+.section__contact{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/Oficinas\ modernas.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    z-index: 10;
+}
+
+.ContactoH1{
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: rgba(113,108,115,0.9);
+}
+
+.ContactoContainer {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.button__form{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.input__contact{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+
+.input__contact:focus~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+.input__contact:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+
+textarea:focus~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+.label__contact{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}

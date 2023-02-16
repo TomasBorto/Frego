@@ -1,0 +1,21 @@
+.logo_nav{
+    margin-left: 30px;
+    width: 125px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.nav_link{
+    font-size: 25px;
+    color: #d6d6d6;
+    padding: 0px 20px !important;
+}
+
+.nav-link:hover{
+    color: #16110e;
+}
+
+.navbar{
+    background-color: rgba(161,6,9,255) !important; 
+    z-index: 999;
+    font-family: 'Secular One', sans-serif;
+}

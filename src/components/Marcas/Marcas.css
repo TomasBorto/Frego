@@ -1,0 +1,40 @@
+.MarcasH1{
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+}
+
+.contenedor_produ1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.sectionMarcas {
+    background-image: url(./assets/audi.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.imgMarca {
+    max-width: 200px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 10px;
+}
+
+@media only screen and (max-width: 768px)  {
+    .sectionMarcas{
+        height: 100%;
+    }
+
+    
+}

@@ -1,0 +1,39 @@
+section{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.section_inicio{
+    background-image: url(./assets/Ferrari\ LaFerrari\ by\ RevoZport_\ Máxima\ exclusividad.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.section_inicio img{
+    display: block;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 490px)  {
+    .section_inicio img{
+        max-width: 350px;
+    }
+    
+}
+
+@media only screen and (max-width: 370px)  {
+    .section_inicio img{
+        max-width: 250px;
+    }
+    
+}
+
+@media only screen and (max-width: 270px)  {
+    .section_inicio img{
+        max-width: 150px;
+    }
+    
+}
